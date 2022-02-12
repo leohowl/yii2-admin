@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Jul 16, 2014, 8:10:29 AM
     Author     : mdmunirdeb
 */
@@ -11,3 +11,18 @@ and open the template in the editor.
 #manager-menu .pull-right {
     float: right;
 }
+
+.ui-menu-item a:not([href]).ui-state-active {
+    background-color: #649eff;
+    border-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 3px 1em 3px 0.4em;
+    width: 100%;
+    display: block;
+}
+
